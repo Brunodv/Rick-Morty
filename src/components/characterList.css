@@ -1,0 +1,49 @@
+#root {
+  margin: 0 auto;
+}
+
+.characters{
+margin:0 auto;
+display:grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 18% 18% 18% 18% 18%;
+gap:10px
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px 30px 30px;
+}
+
+button{
+  margin: 7px;
+  background: #fff;
+  height: 25px;
+  border-radius: 10px;
+}
+h5{
+  line-height: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media(max-width:600px){
+  .characters{
+    margin:0 auto;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 45% 45%;
+    gap:10px
+    }
+    
+}
